@@ -36,5 +36,5 @@ function sumNum (...number) {
 console.log(sumNum(...allNumbers));
 
 function mergeObjects(obj1, obj2){
-  return [...obj1, ...obj2]
+  return {...obj1, ...obj2}
 }
